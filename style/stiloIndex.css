@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("/img/cafe.jpg");
+    /* Color de fondo marrón oscuro */
+    background-size: auto;
+    /* La imagen cubre toda la pantalla */
+    background-repeat: no-repeat;
+    /* No se repite */
+    color: #ffffff;
+}
+
+/* Capa oscura sobre la imagen para mejor legibilidad */
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /*background-color: rgba(0, 0, 0, 0.6);
+    /* Oscurece un poco la imagen */
+    z-index: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: transparent;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* seccion principal de la pagina*/
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    max-width: 600px;
+}
+
+.hero-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #D4AF37;
+    /* Color dorado */
+}
+
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero-text .highlight {
+    color: #ffb700;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+.button-group button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group .order-now {
+    background-color: #ffb700;
+    color: #3c0d0d;
+}
+
+.button-group .order-now:hover {
+    background-color: #e0a200;
+}
+
+.button-group .contact-us {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.button-group .contact-us:hover {
+    background-color: #ffffff20;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.hero-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+.reloj {
+    margin-left: 20%;
+}
+
+#reloj {
+    color: white
+}
+
+/*Estilos para el footer */
+
+/* Footer unificado */
+.footer {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    /* Fuerza el color sólido */
+    position: relative;
+    /* Asegura que esté por encima */
+    z-index: 2;
+    /* Encima del pseudo-elemento ::before */
+    isolation: isolate;
+    /* Bloquea herencia de fondos */
+}
+
+/* Borde de separación sutil */
+.footer-divider {
+    border-top: 1px solid #3e2b1a;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+}
+
+.cafee {
+    color: #e0a200;
+}

@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("/img/cafe.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /*background-color: rgba(0, 0, 0, 0.6);
+    /* Oscurece un poco la imagen */
+    z-index: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: transparent;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.hero-section {
+    background: transparent;
+    padding: 150px 0;
+}
+
+/* estilos para el personal*/
+
+
+.testimonial-card {
+    border-top: 4px solid #D4AF37;
+    transition: all 0.3s ease;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    position: relative;
+    color: #6F4E37;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #D4AF37;
+    margin: 1rem auto 0;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #D4AF37;
+    margin: -40px auto 15px;
+}
+
+.quote-icon {
+    color: #D4AF37;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+
+
+/*estilo para el reloj*/
+
+.reloj {
+    margin-left: 20%;
+}
+
+#reloj {
+    color: white
+}
+
+/*Estilos para el footer */
+.footer {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    /* Fuerza el color sólido */
+    position: relative;
+    /* Asegura que esté por encima */
+    z-index: 2;
+    /* Encima del pseudo-elemento ::before */
+    isolation: isolate;
+    /* Bloquea herencia de fondos */
+}
+
+/* Borde de separación sutil */
+.footer-divider {
+    border-top: 1px solid #3e2b1a;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+}
+
+.cafee {
+    color: #e0a200;
+}
+
+
+#cafee {
+    color: #e0a200;
+}
