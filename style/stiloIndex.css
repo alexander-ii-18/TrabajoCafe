@@ -3,12 +3,12 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-image: url("/img/cafe.jpg");
-    /* Color de fondo marrón oscuro */
-    background-size: auto;
-    /* La imagen cubre toda la pantalla */
+    background-size: cover;
     background-repeat: no-repeat;
-    /* No se repite */
     color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Capa oscura sobre la imagen para mejor legibilidad */
