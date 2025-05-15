@@ -88,6 +88,15 @@ label {
     color: #000000;
 }
 
+/*estilo para el maxino de cafes*/
+.maximo{
+    display: block;
+    margin: 5px 0 8px;
+    font-weight: 600;
+    color: rgba(143, 142, 142, 0.468);
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Estilos base para campos de entrada */
 input,
 select {
