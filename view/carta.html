@@ -11,6 +11,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="/style/nuestra-carta.css" rel="stylesheet" />
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -64,7 +68,7 @@
 
 
 
-
+    <!--- En esta parte va toda la informacion de los cafes que tenemos en produccion -->
     <section class="menu-section container">
         <h2 class="menu-title">Nuestra Carta</h2>
         <div class="col-lg-12">
@@ -168,7 +172,7 @@
                         <div class="newsletter">
                             <input type="email" class="form-control newsletter-input mb-2"
                                 placeholder="Tu correo electrónico">
-                            <button class="btn btn-warning w-100 cafee text-white cafee">Suscribirse</button>
+                            <button class="btn btn-warning w-100 cafee text-white" id="btnSuscribirse">Suscribirse</button>
                         </div>
                     </div>
                 </div>
