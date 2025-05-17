@@ -12,6 +12,18 @@ body {
     flex-direction: column;
 }
 
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header .cabe{
+    align-items: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
 body::before {
     content: "";
     position: absolute;

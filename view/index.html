@@ -22,16 +22,21 @@
 </head>
 
 <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top" id="">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
+    <header>
+        <div class="cabe">
+             <a class="navbar-brand cabe" href="index.html">
                 <i class="fas fa-mug-hot me-2"></i>Cafe los Cocos
             </a>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top" id="" >
+        <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav mx-auto text-center align-items-center d-flex" >
                     <li class="nav-item">
                         <a class="nav-link active" href="#inicio">
                             <i class="fas fa-home me-2"></i> Inicio
@@ -68,117 +73,123 @@
 
             </div>
         </div>
-    </nav>
-
-    <!-- en este seccion va informacion del cafe-->
-    <section class="hero">
-        <div class="hero-text">
-            <h1 class="highlight">¡El Mejor café!</h1>
-            <h2>¡Haz que tu día sea grandioso con nuestro café especial!</h2>
-            <p>Haz tu dia especial con este especial Cafe!!
-                Bienvenido a nuestro paraiso del cafe, donde cada taza cuenta una historia y cada taza despierta
-                alegria <span class="fas fa-mug-hot"></span>.</p>
-            <div class="button-group">
-                <button class="order-now" onclick="window.location.href='carta.html'">Ordernar</button>
-                <button class="contact-us" onclick="window.location.href='Contacto.html'">Contactanos</button>
-            </div>
-        </div>
-        <div class="hero-img">
-            <img src="/img/logo2.png" alt="Coffee Cup">
-        </div>
-    </section>
+        </nav>
 
 
 
-
-    <!-- Creamos el Footer con Bootstrap  -->
-    <footer class="footer text-white pt-5">
-        <div class="container">
-            <div class="row g-4">
-                <!-- Columna 1: Sobre nosotros -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-section">
-                        <h4 class="footer-section-title text-coffee-gold">
-                            <i class="fas fa-mug-hot me-2 cafee"></i><span class="cafee">Café los Cocos</span>
-                        </h4>
-                        <p class="text-white-50">El mejor café de la región desde 2010. Hecho con amor y dedicación.</p>
-                    </div>
-                </div>
-
-                <!-- Columna 2: Horario -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-section">
-                        <h4 class="footer-section-title text-coffee-gold cafee">Horario</h4>
-                        <ul class="list-unstyled text-white-50">
-                            <li class="mb-2">Lunes a Viernes: 7am - 9pm</li>
-                            <li>Sábado y Domingo: 8am - 10pm</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Columna 3: Contacto -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-section">
-                        <h4 class="footer-section-title text-coffee-gold cafee">Contacto</h4>
-                        <ul class="list-unstyled text-white-50">
-                            <li class="mb-2"><i class="fas fa-map-marker-alt text-coffee-gold me-2 cafee"></i> Av.
-                                Principal
-                                123, Ciudad</li>
-                            <li class="mb-2"><i class="fas fa-phone text-coffee-gold me-2 cafee"></i> +1 234 567 890
-                            </li>
-                            <li><i class="fas fa-envelope text-coffee-gold me-2 cafee"></i> info@cafeloscocos.com</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Columna 4: Redes sociales -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-section">
-                        <h4 class="footer-section-title text-coffee-gold cafee">Síguenos</h4>
-                        <!-- En esta seccion sera ppara poner las redes sociales -->
-                        <div class="d-flex gap-3 mb-4 cafee">
-                            <h5>Redes Sociales</h5>
-                            <a href="https://www.facebook.com/Alexandergam" class="text-white me-3"><i
-                                    class="fab fa-facebook-f fa-lg"></i></a>
-                            <a href="https://www.linkedin.com/in/alexander-cove%C3%B1as-damador-626832282/"
-                                class="text-white me-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                            <a href="https://www.instagram.com/alexander.cd05" class="text-white me-3"><i
-                                    class="fab fa-instagram fa-lg"></i></a>
-                        </div>
-
-                        <div class="newsletter">
-                            <input type="email" class="form-control newsletter-input mb-2"
-                                placeholder="Tu correo electrónico">
-                            <button class="btn btn-warning w-100 cafee text-white" id="btnSuscribirse">Suscribirse</button>
-                        </div>
-                    </div>
+        <!-- en este seccion va informacion del cafe-->
+        <section class="hero">
+            <div class="hero-text">
+                <h1 class="highlight">¡El Mejor café!</h1>
+                <h2>¡Haz que tu día sea grandioso con nuestro café especial!</h2>
+                <p>Haz tu dia especial con este especial Cafe!!
+                    Bienvenido a nuestro paraiso del cafe, donde cada taza cuenta una historia y cada taza despierta
+                    alegria <span class="fas fa-mug-hot"></span>.</p>
+                <div class="button-group">
+                    <button class="order-now" onclick="window.location.href='carta.html'">Ordernar</button>
+                    <button class="contact-us" onclick="window.location.href='Contacto.html'">Contactanos</button>
                 </div>
             </div>
+            <div class="hero-img">
+                <img src="/img/logo2.png" alt="Coffee Cup">
+            </div>
+        </section>
 
-            <!-- Footer inferior -->
-            <div class="row mt-4"> <!-- Eliminé mx-0 y el div extra -->
-                <div class="col-12">
-                    <div
-                        class="d-md-flex justify-content-between align-items-center text-center pt-3 border-top border-secondary">
-                        <p class="text-white-50 mb-2 mb-md-0">&copy; 2023 Café los Cocos. Todos los derechos reservados.
-                        </p>
-                        <div class="d-flex justify-content-center gap-3">
-                            <a href="#" class="text-coffee-gold text-decoration-none">Política de privacidad</a>
-                            <a href="#" class="text-coffee-gold text-decoration-none">Términos y condiciones</a>
+
+
+
+        <!-- Creamos el Footer con Bootstrap  -->
+        <footer class="footer text-white pt-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Columna 1: Sobre nosotros -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-section">
+                            <h4 class="footer-section-title text-coffee-gold">
+                                <i class="fas fa-mug-hot me-2 cafee"></i><span class="cafee">Café los Cocos</span>
+                            </h4>
+                            <p class="text-white-50">El mejor café de la región desde 2010. Hecho con amor y dedicación.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Columna 2: Horario -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-section">
+                            <h4 class="footer-section-title text-coffee-gold cafee">Horario</h4>
+                            <ul class="list-unstyled text-white-50">
+                                <li class="mb-2">Lunes a Viernes: 7am - 9pm</li>
+                                <li>Sábado y Domingo: 8am - 10pm</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Columna 3: Contacto -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-section">
+                            <h4 class="footer-section-title text-coffee-gold cafee">Contacto</h4>
+                            <ul class="list-unstyled text-white-50">
+                                <li class="mb-2"><i class="fas fa-map-marker-alt text-coffee-gold me-2 cafee"></i> Av.
+                                    Principal
+                                    123, Ciudad</li>
+                                <li class="mb-2"><i class="fas fa-phone text-coffee-gold me-2 cafee"></i> +1 234 567 890
+                                </li>
+                                <li><i class="fas fa-envelope text-coffee-gold me-2 cafee"></i> info@cafeloscocos.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Columna 4: Redes sociales -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-section">
+                            <h4 class="footer-section-title text-coffee-gold cafee">Síguenos</h4>
+                            <!-- En esta seccion sera ppara poner las redes sociales -->
+                            <div class="d-flex gap-3 mb-4 cafee">
+                                <h5>Redes Sociales</h5>
+                                <a href="https://www.facebook.com/Alexandergam" class="text-white me-3"><i
+                                        class="fab fa-facebook-f fa-lg"></i></a>
+                                <a href="https://www.linkedin.com/in/alexander-cove%C3%B1as-damador-626832282/"
+                                    class="text-white me-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                                <a href="https://www.instagram.com/alexander.cd05" class="text-white me-3"><i
+                                        class="fab fa-instagram fa-lg"></i></a>
+                            </div>
+
+                            <div class="newsletter">
+                                <input type="email" class="form-control newsletter-input mb-2"
+                                    placeholder="Tu correo electrónico">
+                                <button class="btn btn-warning w-100 cafee text-white"
+                                    id="btnSuscribirse">Suscribirse</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Footer inferior -->
+                <div class="row mt-4"> <!-- Eliminé mx-0 y el div extra -->
+                    <div class="col-12">
+                        <div
+                            class="d-md-flex justify-content-between align-items-center text-center pt-3 border-top border-secondary">
+                            <p class="text-white-50 mb-2 mb-md-0">&copy; 2023 Café los Cocos. Todos los derechos
+                                reservados.
+                            </p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="#" class="text-coffee-gold text-decoration-none">Política de privacidad</a>
+                                <a href="#" class="text-coffee-gold text-decoration-none">Términos y condiciones</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
 
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="/controls/codeIndex.js"></script>
+        <script src="/controls/codeIndex.js"></script>
 
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>

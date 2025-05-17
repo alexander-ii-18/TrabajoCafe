@@ -12,6 +12,17 @@ body {
     flex-direction: column;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header .cabe{
+    align-items: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
 body::before {
     content: "";
     position: absolute;
@@ -38,7 +49,9 @@ nav ul {
     list-style: none;
     gap: 30px;
 }
-
+nav ul li{
+    border: 1px solid rgb(26, 255, 0);
+}
 nav ul li a {
     color: white;
     text-decoration: none;

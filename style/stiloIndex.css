@@ -21,12 +21,25 @@ body::before {
     z-index: 0;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header .cabe{
+    align-items: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
     background-color: transparent;
+    position: relative;
+    z-index: 1;
 }
 
 nav ul {
@@ -35,10 +48,14 @@ nav ul {
     gap: 30px;
 }
 
+nav ul li{
+    border: 1px solid red;
+}
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 500;
+    
 }
 
 /* seccion principal de la pagina*/
